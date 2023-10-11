@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+
+	int r;
+	float s , n , m ;
+	cout << "Введите вклад в сберкассу: ";
+	cin >> s;
+	cout << "Введите через сколько хотите забрать свой вклад: ";
+	cin >> n;
+	m = s * 3 / 100;
+	r = s+m * n ;
+	cout << "Сумма вклада:" << r << endl;
+	
+
+	return 0;
+}
